@@ -1,5 +1,15 @@
 # Sentiment-Classification
-from scratch Sentiment classification model  a good start for beginning  natural language processing (NLP) 
+
+What Is Sentiment Analysis?
+Sentiment Analysis is a Natural Language Processing (NLP) task where the goal is to determine the emotional tone behind a piece of text.
+
+Usually, we classify text into:
+
+🔴 Negative
+
+🟢 Positive
+
+⚪ Neutral
 
 ## What is Natural Language processing (NLP)?
 
@@ -33,5 +43,17 @@ we can call it (X) now our task is to predict it's label (y)  which will be posi
 
 
 ![image](https://github.com/user-attachments/assets/22316828-a9d4-4195-840e-672ae717c19e)
+
+## A Three-step Process for Making Predictions
+
+• Feature extraction: Extract the salient features for making the decision from text
+
+• Score calculation: Calculate a score for one or more possibilities
+
+• Decision function: Choose one of the several possibilities
+
+## how can we we apply this ? 
+
+![image](https://github.com/user-attachments/assets/5e10c2e8-1acb-4f58-8e3a-1176e622952c)
 
 
