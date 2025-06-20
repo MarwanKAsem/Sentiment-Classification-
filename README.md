@@ -61,4 +61,8 @@ It will take in a text `X` and return a `label` of "1" if the sentiment of the t
 
 The final way the classifier decides whether to assign a positive, negative, or neutral label is by calculating the dot product `feature_weights * extract_features(X)`, and if the value is greater than zero, return 1, less than zero return -1, and if exactly zero return 0.
 
-Let's have some fun trying to design a classifier 😁
+Let's have some fun trying to design a classifier , see the notebook and run it...!!!😁
+
+Credits: 
+
+[CMU CS11-711 Advanced NLP](https://cmu-l3.github.io/anlp-spring2025/)
