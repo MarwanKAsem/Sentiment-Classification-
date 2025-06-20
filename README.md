@@ -56,4 +56,9 @@ we can call it (X) now our task is to predict it's label (y)  which will be posi
 
 ![image](https://github.com/user-attachments/assets/5e10c2e8-1acb-4f58-8e3a-1176e622952c)
 
+# Build a Rule-based Sentiment Classifier
+It will take in a text `X` and return a `label` of "1" if the sentiment of the text is positive, "-1" if the label of the feature is negative, and "0" if the label of the feature is neutral. 
 
+The final way the classifier decides whether to assign a positive, negative, or neutral label is by calculating the dot product `feature_weights * extract_features(X)`, and if the value is greater than zero, return 1, less than zero return -1, and if exactly zero return 0.
+
+Let's have some fun trying to design a classifier 😁
